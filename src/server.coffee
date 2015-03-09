@@ -4,7 +4,6 @@ nodemon = require 'nodemon'
 module.exports = (gulp, settings, watch, lr) ->
   # console.log 'task: server'
   gulp.task 'server', (['watch'] if watch), (cb) ->
-    console.log 'starting livereload, i think..'
     unless lr == false
       reloader = livereload start: true
     nodemon settings
