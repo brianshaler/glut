@@ -1,9 +1,9 @@
 var gulp = require('gulp');
-var gulplug = require('./lib');
+var glut = require('./lib');
 
 var coffeeRunner = require('gulp-coffee');
 
-gulplug(gulp, {
+glut(gulp, {
   watch: true,
   livereload: false,
   tasks: {

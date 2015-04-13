@@ -1,5 +1,5 @@
 {
-  "name": "gulplug",
+  "name": "glut",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianshaler/gulplug"
+    "url": "https://github.com/brianshaler/glut"
   },
   "license": "ISC",
   "dependencies": {
